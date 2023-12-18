@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["/turbopack/[node]/.next/server/app/api/auth/[...nextauth]/route/actions.js"],"sourcesContent":["__turbopack_export_value__({\n});"],"names":[],"mappings":"AAAA,2BAA2B,CAC3B"}},
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/api/auth/[...nextauth]/route.js"],"sourcesContent":["import { authOptions } from \"./auth\";\r\nimport NextAuth from \"next-auth\";\r\n\r\nconst handler = NextAuth(authOptions);\r\nexport { handler as GET, handler as POST };\r\n"],"names":[],"mappings":";;;;;;;;;AAGA,MAAM,UAAU"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/dashboard/page.tsx"],"sourcesContent":["export default function Dashboard() {\r\n  return (\r\n    <main className=\"flex min-h-screen flex-col items-center justify-between p-24\">\r\n      <div className=\"z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex\">\r\n        <h1>Dashboard</h1>\r\n      </div>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,wLAAC;QAAK,WAAU;kBACd,cAAA,wLAAC;YAAI,WAAU;sBACb,cAAA,wLAAC;0BAAG;;;;;;;;;;;;;;;;AAIZ;KARwB"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

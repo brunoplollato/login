@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/profile/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { useEffect, useState } from \"react\";\r\nimport { useSession } from \"next-auth/react\";\r\nimport { getAllProducts } from \"../api/products/products.service\";\r\nimport LogoutButton from \"@/components/logoutButton\";\r\n\r\nexport default function Dashboard() {\r\n  const { data: session, status } = useSession();\r\n\r\n  console.log(\"session\", session);\r\n  if (status === \"loading\") {\r\n    return <p>Loading...</p>;\r\n  }\r\n\r\n  if (status === \"unauthenticated\") {\r\n    return <p>Access Denied</p>;\r\n  }\r\n\r\n  return (\r\n    <>\r\n      <h1>Protected Page</h1>\r\n      <p>You can view this page because you are signed in.</p>\r\n      <LogoutButton />\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;AAAA;;;AAOe,SAAS;;IACtB,MAAM,EAAE,MAAM,OAAO,EAAE,MAAM,EAAE,GAAG;IAElC,QAAQ,GAAG,CAAC,WAAW;IACvB,IAAI,WAAW,WAAW;QACxB,qBAAO,wLAAC;sBAAE;;;;;;IACZ;IAEA,IAAI,WAAW,mBAAmB;QAChC,qBAAO,wLAAC;sBAAE;;;;;;IACZ;IAEA,qBACE;;0BACE,wLAAC;0BAAG;;;;;;0BACJ,wLAAC;0BAAE;;;;;;0BACH;;;;;;;AAGN;GAnBwB;;;;;KAAA"}},
+    {"offset": {"line": 71, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
